@@ -4,7 +4,9 @@
 
 body {
     margin: 0px;
-    background: white;
+    background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/06/jocker-wallpaper-20061117091010-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bigbox {
@@ -15,11 +17,11 @@ body {
 .header {
     border-bottom: 2px solid #cccccc;
     margin-bottom: 40px;
-    background-color: #ffffff;
+    background-color: lightblue;
 }
 
 .name {
-    background-color: teal;
+    background-color:orange;
     color: #ffffff;
     font-size: 1.8em;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -49,10 +51,6 @@ a.nav-link:hover {
     color: #777777;
 }
 
-
-
-
-
 .aboutme {
     border: 1px solid #dddddd;
     overflow: hidden;
@@ -71,7 +69,7 @@ a.nav-link:hover {
     font-size: 2em;
 }
 
-.small1, .small2 {
+.polo1, .polo2 {
     float: left;
     margin-right: 5%;
     position: relative;
@@ -79,13 +77,32 @@ a.nav-link:hover {
     width: 35%;
 }
 
-.small1 img, .small2 img {
+.polo1 img {
+    width: 100%;
+    height: 275px;
+    margin-right: 100%;
+}
+
+.polo2 img{
+    width: 100%;
+    height: 275px;
+    margin-top: 250px;
+    bottom: 470px;
+}
+
+.polo1 p {
+    background-color:orange;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 270px;
     width: 100%;
 }
 
-.small1 p, .small2 p {
-    background-color: teal;
-    color: #ffffff;
+.polo2 p {
+    background-color:orange;
+    color: black;
     text-align: center;
     padding: 15px;
     position: absolute;
@@ -93,7 +110,7 @@ a.nav-link:hover {
     width: 100%;
 }
 
-.small2 p {
+.polo2 p {
     top: 205px;
 }
 
@@ -116,7 +133,7 @@ footer {
   }
 
 @media only screen and (max-width: 768px) {
-    .small2 p{
+    .polo2 p{
         top: 170px;
     }
 }
@@ -135,22 +152,22 @@ footer {
         margin: 0 auto;
     }
 
-    .small1, .small2 {
+    .polo1, .polo2 {
         float: none;
         width: 100%;
-        margin: 3vh auto;
+        margin: 1vh auto;
     }
 
-    .small1 p {
+    .polo1 p {
         top: 511px;
     }
 
-    .small2 p{
+    .polo2 p{
         top: 348px;
     }
     
     .sm p {
-        top: 250px
+        top: 350px
     }
 
     span {
@@ -218,14 +235,14 @@ footer {
 }
 
 @media only screen and (max-width: 980px) {
-    .chuhan {
+    .carlos {
         margin-right: 31%;
     }
   }
 
 
 @media only screen and (max-width: 640px) {
-    .chuhan {
+    .carlos {
         width: 100%;
         float: none;
         background-color: teal;
